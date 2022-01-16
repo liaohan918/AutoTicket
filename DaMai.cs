@@ -277,6 +277,10 @@ namespace AutoTicket
 
                 var performWatcher = Appsetting.Get("PeopleName");//观影人
                 var nameIndex = result.IndexOf($"\"{performWatcher}\"");
+                if(nameIndex == -1)
+                {
+                    throw new Exception($"请添加{performWatcher}观影人信息");
+                }
                 var viewerListIndex = result.IndexOf("\"dmViewerList\"");
                 var left = result.IndexOf("[", viewerListIndex);
                 var right = result.IndexOf("]", left);
