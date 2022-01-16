@@ -1,0 +1,22 @@
+﻿{
+  "TicketWeb": "DaMai", //Polyt-保利,DaMai-大麦
+  "Date": "22", //大麦的话填写日, 保利的话填写演出时间次序
+  "PositionIndex": "0,1", //场次, 多场次可以写0,1,2(大麦有场次，保利没有场次)
+  "PriceIndex": "0,1", //票档
+  "PeopleName": "廖焓", //观影人姓名（目前只能抢一个）
+  "Phone": "13751209137",
+  "TaskCount": 0, //辅助抢票线程数
+  "StartTime": "2022-1-10 14:35:00", //开始抢票时间
+  "Web": {
+    "DaMai": {
+      "TargetUrl": "https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.6dba4d15lh3zMj&id=666757317421&clicktitle=%E8%AF%9D%E5%89%A7%E3%80%8A%E5%8E%9F%E9%87%8E%E3%80%8B",
+      "Cookie": "cna=8x9DGuR6qWoCAXENBvazKDyv; t=30cca9174290ad4feccfbf41f421ef99; UM_distinctid=17e5e39d0bf7eb-0d34b6e1e551f1-58412b14-1fa400-17e5e39d0c0662; cn_7415364c9dab5n09ff68_dplus=%7B%22distinct_id%22%3A%20%2217e5e39d0bf7eb-0d34b6e1e551f1-58412b14-1fa400-17e5e39d0c0662%22%2C%22%24_sessionid%22%3A%200%2C%22%24_sessionTime%22%3A%201642258445%2C%22%24dp%22%3A%200%2C%22%24_sessionPVTime%22%3A%201642258445%2C%22initial_view_time%22%3A%20%221642257675%22%2C%22initial_referrer%22%3A%20%22https%3A%2F%2Fpassport.damai.cn%2Flogin%3Fru%3Dhttps%3A%2F%2Fpassport.damai.cn%2Faccountinfo%2Fmyinfo%22%2C%22initial_referrer_domain%22%3A%20%22passport.damai.cn%22%7D; munb=2212921958270; damai.cn_nickName=%E9%BA%A6%E5%AD%902zOVN; xlly_s=1; cookie2=1af9f25e36744d1d94cb5c4f5b9443a2; _tb_token_=5019eee3b67a6; XSRF-TOKEN=e3e83c31-22c1-4145-b1be-96b5b7b1e1ed; _samesite_flag_=true; _hvn_login=18; csg=b564072e; damai.cn_user=ClTaz7WQxYcFgLu6od6QrnwBJq5mEfB7bob8XK6haCqP4DtfPtbJTQsci3qOnldqGxb2+Rjuqig=; damai.cn_user_new=ClTaz7WQxYcFgLu6od6QrnwBJq5mEfB7bob8XK6haCqP4DtfPtbJTQsci3qOnldqGxb2%2BRjuqig%3D; h5token=cb3d7c64f1954f34bee521912cd64921_1_1; damai_cn_user=ClTaz7WQxYcFgLu6od6QrnwBJq5mEfB7bob8XK6haCqP4DtfPtbJTQsci3qOnldqGxb2%2BRjuqig%3D; loginkey=cb3d7c64f1954f34bee521912cd64921_1_1; user_id=183594234; _m_h5_tk=32451aba8287fcca673d12a8dc806da8_1642350350081; _m_h5_tk_enc=f1042945167cb6680530400aa5355d7f; JSESSIONID=node010rv4e7yygius1tzxctkjmyez12523820.node0; isg=BNPTAbMzth442Hridrgfp6uNYlf9iGdKejCURoXwufIpBPOmDFssmH5VOnRqpL9C; tfstk=clqCBetz0BAIkC7yYJ6wU60MX0nAZjJjFwG3dzfkNJHepl2CiE-qG6W0rQnreA1..; l=eBjlmkilgeED8Wv0BO5ZPurza77t3IRb4sPzaNbMiInca6tR1F97yNCp2BM6RdtjgtCvgeKr4fyYIRLHR3AJwxDDBuwIAl8K3xvO.",
+      "umid": "T2gAQAv6xZ7H7YSr8pTVsa4D4DEgoSC3xxSxQvn-kGwEIkT9-R8VEPMrFXrig-_j56o=",
+      "ua": "140#802oE2VbzzW9AQo2+bIu4pN8s7aqLA60uZ5dJdGedRoRC6Hncqs21GuHrMSmxJdH4Qislp1zz/J4yl62PFrxaxkza3h/zzrb22U3lp1xzF9HV2EqlaOz2PD+VoFnlT8I1wba7X53xYYCTdkWsdWE5CTH83TmqZ5i6ePaeMrfG7vWx+U4lEZzHyNMuxie1PBIzLbbF9lFOAm5T3qEZURynOY9CizKQ7Y/sXZL924h4TeeGEdwi1xYtmmZz9+FpciQVm/6YNGs3xu9AZGiRY8e73bo8uzHyU7JQ/g9Ea7Fy/niysCf874z/CXkKe1HJbcBogSsGnIoompHgRRQMoHp+34FAYkKWt8FvrXNQlecUgmnH75ICDx9aXeWFArde7+USp2+Mf8f0jIEaU4f1X1FVlyHv9eaGGAU8ekm33oCdgBDOMPZaSzqfrx6aE6/5zTolUau2+JbapQF76L0CzZDW2Q92UkgXpILRPsKj8aNcG/ZA/Ul72jBNuxb3fDRZ0ve+ix3kfy+cYF/PAQ9fDhAq1+vMwBpmvFRb62UevQnbOnEuva2y39sO+BkqKmQ3sIwhbHrpBRIn/+RBZGB5tiQWmqtA+FYTCo3sQtPJffH3rSgsMWQ8wp99QZLQrFKuXEQt2dSzgevO3DPnHffvULdevh+8mcv5lVogAOkjSC3mFG8ZI1agqkU1tPHNUgYupb/H40mPFVqu5GQHQ3ItzoGFwk0tyFxIe1r2IrPne8qIPgLFU+0UZaMRTK+wbUoYixor7wFXvKeIxcWW8Lm4LRHtBFHOVNuCat8jY+8bSXxvhsSndzm04HNb1AvRYMEnujjAbl15QTAafEZWW4y4At6Bkkabqke/I8CCzQgxnuDieCONTqn"
+    },
+    "Polyt": {
+      "TargetUrl": "https://www.polyt.cn/show/664529746574471168/694/36938",
+      "Cookie": "loginSessionNew=2d11182e209fe46191d4cf13eb43df9a&&ac99722e060c5aa66b5191e7acd5b8eb; aliyungf_tc=0a072d173dd88d938479954dd637732e2d282c026f2f946cdfcefb2c39e699fb; acw_tc=707c9f6416417443051925510e120669ed76c17a62b12f1eda9c9e43a10eec; Hm_lvt_0cb4627679a11906d6bf0ced685dc014=1641745783,1641745869,1641745942,1641745949; Hm_lpvt_0cb4627679a11906d6bf0ced685dc014=1641745949"
+    }
+  }
+}

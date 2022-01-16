@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTicket", "AutoTicket.csproj", "{368C5DE9-6BCA-4886-9263-9535043C7B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{368C5DE9-6BCA-4886-9263-9535043C7B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368C5DE9-6BCA-4886-9263-9535043C7B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368C5DE9-6BCA-4886-9263-9535043C7B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368C5DE9-6BCA-4886-9263-9535043C7B92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A94AB0BA-EF2E-4F6B-A0D4-4023BE2AE0AB}
+	EndGlobalSection
+EndGlobal
