@@ -1,29 +1,29 @@
 ﻿
-##保利
-###抢票界面演出信息接口
+## 保利
+### 抢票界面演出信息接口
 https://platformpcgateway.polyt.cn/api/1.0/show/getShowInfoDetail
 
-###返回所有位置信息
+### 返回所有位置信息
 https://cdn.polyt.cn/seat/h5/57810_57606.json?callback=jsonpCallback
 
-###返回所有可购买作为Id
+### 返回所有可购买作为Id
 https://platformpcgateway.polyt.cn/api/1.0/seat/getSellSeatList
 
 无论是移动端还是pc端的接口都有限流,每个线程抢票间隔为1.5s,单个IP请求太频繁会被禁IP
 
-##大麦
+## 大麦
 
 抢大麦的票需要nodejs环境,因为要通过js代码加密sign
 
-###获取界面演出信息接口
+### 获取界面演出信息接口
 https://detail.damai.cn/subpage?itemId=664009496699&apiVersion=2.0&dmChannel=pc@damai_pc&bizCode=ali.china.damai&scenario=itemsku&dataType=&dataId=&privilegeActId=&callback=__jp0
 
-###获取区域分组信息接口
+### 获取区域分组信息接口
 mtop.damai.wireless.project.getb2b2careainfo
-###查询座位信息
-####当区域只有一个时：
+### 查询座位信息
+#### 当区域只有一个时：
 mtop.damai.wireless.seat.queryseatstatus或
-####当区域有多个时：
+#### 当区域有多个时：
 ①mtop.damai.wireless.seat.queryperformseatstatus,返回值中2代表有座，8代表无座(X, 8)代表连续X个为无座
 ②https://sseat.damai.cn/xuanzuo/io/110100/1936836267/10000072/6028214.json,/城市id/xxx/xxx/groupid(区域分组id),/xxx/xxx/在mtop.damai.wireless.seat.queryseatstatus接口返回值中找
 
