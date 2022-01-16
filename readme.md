@@ -12,6 +12,9 @@ https://platformpcgateway.polyt.cn/api/1.0/seat/getSellSeatList
 无论是移动端还是pc端的接口都有限流,每个线程抢票间隔为1.5s,单个IP请求太频繁会被禁IP
 
 ##大麦
+
+抢大麦的票需要nodejs环境,因为要通过js代码加密sign
+
 ###获取界面演出信息接口
 https://detail.damai.cn/subpage?itemId=664009496699&apiVersion=2.0&dmChannel=pc@damai_pc&bizCode=ali.china.damai&scenario=itemsku&dataType=&dataId=&privilegeActId=&callback=__jp0
 
