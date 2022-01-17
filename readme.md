@@ -4,7 +4,7 @@
 
 ## 配置
 
-![image](Public/20190528145810708.png)
+![image](Public/appsetting.png)
 抢大麦的票需要nodejs环境,因为要通过js代码加密sign
 
 ### 待更新
