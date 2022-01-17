@@ -4,7 +4,7 @@
 
 ## 配置
 
-![0805a7b78b5f5fa3f1c4a87002ac8c98.png](en-resource://database/1213:0)
+![image](Public/image/20190528145810708.png)
 抢大麦的票需要nodejs环境,因为要通过js代码加密sign
 
 ### 待更新
