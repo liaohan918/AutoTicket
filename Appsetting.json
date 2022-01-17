@@ -1,7 +1,7 @@
 ﻿{
-  "TicketWeb": "DaMai", //Polyt-保利,DaMai-大麦
-  "Date": "22", //大麦的话填写日, 保利的话填写演出时间次序
-  "PositionIndex": "0,1", //场次, 多场次可以写0,1,2(大麦有场次，保利没有场次)
+  "TicketWeb": "Polyt", //Polyt-保利,DaMai-大麦
+  "Date": "22", //大麦的话填写日, 保利不用管
+  "PositionIndex": "0,1", //场次, 多场次可以写0,1,2
   "PriceIndex": "0,1", //票档
   "PeopleName": "廖某", //观影人姓名（目前只能抢一个）
   "Phone": "137XXXXXXX",
@@ -15,8 +15,8 @@
       "ua": "140#802oE2VbzzW9AQo2+bIu4pN8s7aqLA60uZ5dJdGedRoRC6Hncqs21GuHrMSmxJdH4Qislp1zz/J4yl62PFrxaxkza3h/zzrb22U3lp1xzF9HV2EqlaOz2PD+VoFnlT8I1wba7X53xYYCTdkWsdWE5CTH83TmqZ5i6ePaeMrfG7vWx+U4lEZzHyNMuxie1PBIzLbbF9lFOAm5T3qEZURynOY9CizKQ7Y/sXZL924h4TeeGEdwi1xYtmmZz9+FpciQVm/6YNGs3xu9AZGiRY8e73bo8uzHyU7JQ/g9Ea7Fy/niysCf874z/CXkKe1HJbcBogSsGnIoompHgRRQMoHp+34FAYkKWt8FvrXNQlecUgmnH75ICDx9aXeWFArde7+USp2+Mf8f0jIEaU4f1X1FVlyHv9eaGGAU8ekm33oCdgBDOMPZaSzqfrx6aE6/5zTolUau2+JbapQF76L0CzZDW2Q92UkgXpILRPsKj8aNcG/ZA/Ul72jBNuxb3fDRZ0ve+ix3kfy+cYF/PAQ9fDhAq1+vMwBpmvFRb62UevQnbOnEuva2y39sO+BkqKmQ3sIwhbHrpBRIn/+RBZGB5tiQWmqtA+FYTCo3sQtPJffH3rSgsMWQ8wp99QZLQrFKuXEQt2dSzgevO3DPnHffvULdevh+8mcv5lVogAOkjSC3mFG8ZI1agqkU1tPHNUgYupb/H40mPFVqu5GQHQ3ItzoGFwk0tyFxIe1r2IrPne8qIPgLFU+0UZaMRTK+wbUoYixor7wFXvKeIxcWW8Lm4LRHtBFHOVNuCat8jY+8bSXxvhsSndzm04HNb1AvRYMEnujjAbl15QTAafEZWW4y4At6Bkkabqke/I8CCzQgxnuDieCONTqn"
     },
     "Polyt": {
-      "TargetUrl": "https://www.polyt.cn/show/664529746574471168/694/36938",
-      "Cookie": "loginSessionNew=2d11182e209fe46191d4cf13eb43df9a&&ac99722e060c5aa66b5191e7acd5b8eb; aliyungf_tc=0a072d173dd88d938479954dd637732e2d282c026f2f946cdfcefb2c39e699fb; acw_tc=707c9f6416417443051925510e120669ed76c17a62b12f1eda9c9e43a10eec; Hm_lvt_0cb4627679a11906d6bf0ced685dc014=1641745783,1641745869,1641745942,1641745949; Hm_lpvt_0cb4627679a11906d6bf0ced685dc014=1641745949"
+      "TargetUrl": "https://www.polyt.cn/show/679619567104966656/694/38377",
+      "Cookie": "loginSessionNew=2d11182e209fe46191d4cf13eb43df9a&&ac99722e060c5aa66b5191e7acd5b8eb; Hm_lvt_0cb4627679a11906d6bf0ced685dc014=1641796933,1641823100,1642278702,1642450084; acw_tc=2f624a6c16424500845682239e5fe7b9fa0c4a43c1042d41e2d4c0ca52f45e; Hm_lpvt_0cb4627679a11906d6bf0ced685dc014=1642450147"
     }
   }
 }

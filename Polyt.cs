@@ -35,15 +35,6 @@ namespace AutoTicket
 
         #endregion
 
-        /// <summary>
-        /// 设置的票档
-        /// </summary>
-        List<int> priceChoose;
-        /// <summary>
-        /// 设置的场次
-        /// </summary>
-        List<int> dayChoose;
-
         public Polyt()
         {
             var targetUrl = Appsetting.GetTargetUrl();
@@ -88,6 +79,8 @@ namespace AutoTicket
             List<int> sellSeats;//可售座位
             SeatsInfo allSeats;//座位信息
             int targetSeatId = 0;//目标座位Id
+            List<int> priceChoose;
+            List<int> dayChoose;
             while (_status == 1)
             {
                 if(DateTime.Now < showStartTime)
@@ -98,9 +91,9 @@ namespace AutoTicket
                 try
                 {
 
-                    dayChoose = Appsetting.GetDate().ToList();//抢的日期下标标
+                    dayChoose = Appsetting.GetPositionIndex().ToList();//抢的日期下标标
                     priceChoose = Appsetting.GetPriceIndex().ToList();//抢的票档
-                    targetTicket = await ChoosePriceAsync(proxy);
+                    targetTicket = await ChoosePriceAsync(proxy, dayChoose, priceChoose);
                     if (targetTicket is not null)
                     {
                         sellSeats = await GetSellSeats(targetTicket.SectionId, targetTicket.ShowId, proxy);
@@ -258,7 +251,7 @@ namespace AutoTicket
         /// <summary>
         /// 选择票
         /// </summary>
-        public async Task<TicketResp> ChoosePriceAsync(IWebProxy proxy)
+        public async Task<TicketResp> ChoosePriceAsync(IWebProxy proxy, List<int> dayChoose, List<int> priceChoose)
         {
             var reqModel = new
             {
