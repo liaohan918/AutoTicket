@@ -7,6 +7,9 @@
 ![0805a7b78b5f5fa3f1c4a87002ac8c98.png](en-resource://database/1213:0)
 抢大麦的票需要nodejs环境,因为要通过js代码加密sign
 
+### 待更新
+
+##### 完善获取代理IP方法
 
 * * *
 
@@ -16,19 +19,13 @@
 
 https://platformpcgateway.polyt.cn/api/1.0/show/getShowInfoDetail
 
-
-
 #### 返回所有位置信息
 
 https://cdn.polyt.cn/seat/h5/57810_57606.json?callback=jsonpCallback
 
-
-
 #### 返回所有可购买作为Id
 
 https://platformpcgateway.polyt.cn/api/1.0/seat/getSellSeatList
-
-
 
 无论是移动端还是pc端的接口都有限流,每个线程抢票间隔为1.5s,单个IP请求太频繁会被禁IP
 
